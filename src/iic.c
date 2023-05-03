@@ -20,6 +20,7 @@
  */
 void iic_init(long iic_freq, uint8_t prescaler)
 {
+  PRR &= ~(1 << PRTWI); // Set PRTWI flag to 0 in Power Reduction Register
   TWSR = prescaler;
   switch (prescaler) {
     case 0x00:
