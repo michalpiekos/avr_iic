@@ -1,5 +1,5 @@
 AVR_IIC library
-====+++========
+===============
 Simple I2C (TWI, IIC) interface library written using [AVR libc](https://www.nongnu.org/avr-libc/) to ensure maximum compatibility accross AVR devices.
 
 Installation Method
